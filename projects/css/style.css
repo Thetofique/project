@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.section-title {
+  font-size:  3.2rem;
+  margin-bottom: 6.4rem;
+  font-weight: 700;
+  margin-top: 12rem;
+}
+
+.container {
+  max-width: 1378px;
+  margin: auto;
+}
+
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 3.2rem;
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  object-fit: cover;
+}
+
+
+
+.main {
+  background: url('/Imgs/Showcase\ Cover.png') no-repeat center center/cover;
+  min-height: 500px;
+  border-radius: 0 0 50px 50px;
+}
+
+
+.header {
+  color: #fff;
+  max-width:  73%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.8rem;
+  margin-bottom: 160px;
+}
+
+
+.navlists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.navlists a {
+  opacity: 0.7;
+}
+.navlists a:hover {
+  opacity: 1;
+}
+
+.showcase-content {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.showcase-content a:hover {
+  background:#7b61ff;
+  opacity: 0.9;
+}
+.Areas-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.Areas-card h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.Areas-card h6 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 19.5px;
+}
+.Areas-card img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Areas-card {
+  margin: 10px;
+}
+.Carees-streams {
+  transition: 3s;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.career-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  transition: 0.3s;
+}
+.career-cards {
+  position: relative;
+  border-radius: 12px;
+}
+.career-cards img {
+  border-radius: 12px;
+}
+.career-cards h5 {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.career-cards h6 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 19.5px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.college-cards h3 {
+  font-size: 2rem;
+}
+.college-cards {
+  display: flex;
+  gap: 3rem;
+}
+.college-card {
+  display: flex;
+  gap: 3rem;
+  flex: 1;
+}
+.college-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+.college-card-contents-text p {
+  margin-top: 2rem;
+}
+.college-card img {
+  border-radius: 12px;
+}
+#About {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  align-items: center;
+  gap: 3rem;
+}
+#About h2 {
+  font-size: 3.2rem;
+}
+#About p {
+  width: 556px;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+footer {
+  background: #f9f9f9;
+  padding-top: 120px;
+  padding-bottom: 120px;
+ 
+}
+.footer-section {
+ 
+  text-align: center;
+}
+.footer-content {
+  margin-left: 500px;
+}
+.footer-section p {
+  font-size: 1.3rem;
+  width: 350px;
+  line-height: 1.9;
+  margin-block: 1rem 2rem;
+  color: #5b5b5b;
+  text-align: center;
+}
+.footer-social-icons {
+  display: flex;
+  gap: 3rem;
+  margin-left: 100px;
+}
+
+
+
